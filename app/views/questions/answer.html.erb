@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>Coach's Corner</h1>
+
+  <div class="background">
+    <div class="bar"></div>
+    <div class="question">
+      <blockquote class="blockquote text-left">
+        <p class="mb-0"><%= @question %></p>
+        <footer class="blockquote-footer"><cite title="Source Title">You</cite></footer>
+      </blockquote>
+    </div>
+  </div>
+  <div class="background">
+    <div class="bar"></div>
+    <div class="answer">
+      <blockquote class="blockquote text-left">
+        <p class="mb-0"><%= @answer %></p>
+        <footer class="blockquote-footer"><cite title="Source Title">Your Coach</cite></footer>
+      </blockquote>
+    </div>
+  </div>
+  <%= link_to "Ask another question", ask_path %>
+</div>

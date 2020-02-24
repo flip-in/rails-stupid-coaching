@@ -1,0 +1,33 @@
+.question {
+  background: #FFFFFF;
+  opacity: .75;
+  padding: 25px;
+  margin-bottom: 5px;
+  height: 120px;
+}
+
+.answer {
+  margin-top: 5px;
+  background: #FFFDD0;
+  opacity: .75;
+  padding: 25px;
+}
+
+.background{
+  position: relative;
+}
+
+.bar {
+  width: 10px;
+  height: 100%;
+  background: grey;
+  position: absolute;
+  z-index: 1;
+}
+
+a {
+  color: red !important;
+  &:hover{
+    text-decoration: none !important;
+  }
+}
